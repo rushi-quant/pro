@@ -1,0 +1,28 @@
+{
+    "LOG": {
+        "console": true,
+        "level": "INFO",
+        "path": "/data/logs/servers/Server",
+        "name": "market.log",
+        "clear": false,
+        "backup_count": 5
+    },
+    "RABBITMQ": {
+        "host": "rabbit",
+        "port": 5672,
+        "username": "test",
+        "password": "123456"
+    },
+    "MONGODB": {
+        "host": "mongo",
+        "port": 27017,
+        "username": "test",
+        "password": "123456"
+    },
+    "RUN_TIME_UPDATE": true,
+    "websockets_ip": "0.0.0.0",
+    "websockets_port": 9999,
+    "sys_api_url": "http://sys.ghfhsaascxxv.xyz",
+    "username": "",
+    "password": ""
+}

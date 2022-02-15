@@ -1,0 +1,38 @@
+{
+    "LOG": {
+        "console": true,
+        "level": "INFO",
+        "path": "/data/logs/servers/Market",
+        "name": "market.log",
+        "clear": false,
+        "backup_count": 5
+    },
+    "RABBITMQ": {
+        "host": "127.0.0.1",
+        "port": 5672,
+        "username": "test",
+        "password": "123456"
+    },
+    "MONGODB": {
+        "host": "127.0.0.1",
+        "port": 27017,
+        "username": "test",
+        "password": "123456"
+    },
+    "MARKETS": {
+        "binance_swap": {
+            "symbols": [
+                {
+                    "name": [
+                        "ETH/USDT"
+                    ]
+                }
+            ],
+            "channels": [
+                "kline"
+            ]
+        }
+    },
+    "save": false,
+    "publish": true
+}

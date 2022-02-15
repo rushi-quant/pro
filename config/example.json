@@ -1,0 +1,57 @@
+{
+    "LOG": {
+        "console": true,
+        "level": "INFO",
+        "path": "/data/logs/servers/Market",
+        "name": "market.log",
+        "clear": false,
+        "backup_count": 5
+    },
+    "RABBITMQ": {
+        "host": "127.0.0.1",
+        "port": 5672,
+        "username": "test",
+        "password": "123456"
+    },
+    "MONGODB": {
+        "host": "127.0.0.1",
+        "port": 27017,
+        "username": "test",
+        "password": "123456"
+    },
+    "MARKETS": {
+        "binance_swap": {
+            "binance_swap": [
+                {
+                    "name": [
+                        "ETH/USDT",
+                        "BNB/USDT",
+                        "ADA/USDT",
+                        "XRP/USDT",
+                        "DOT/USDT",
+                        "DOGE/USDT",
+                        "1000SHIB/USDT",
+                        "MATIC/USDT",
+                        "SAND/USDT",
+                        "LTC/USDT",
+                        "UNI/USDT",
+                        "LINK/USDT",
+                        "ALGO/USDT",
+                        "FTM/USDT",
+                        "BCH/USDT",
+                        "TRX/USDT",
+                        "MANA/USDT",
+                        "LRC/USDT",
+                        "VET/USDT",
+                        "EOS/USDT"
+                    ]
+                }
+            ],
+            "channels": [
+                "kline"
+            ]
+        }
+    },
+    "save": false,
+    "publish": true
+}

@@ -1,0 +1,53 @@
+{
+    "HEARTBEAT": {
+        "interval": 0
+    },
+    "LOG": {
+        "console": true,
+        "level": "INFO",
+        "path": "/data/logs/servers/Main",
+        "name": "market.log",
+        "clear": false,
+        "backup_count": 5
+    },
+    "RABBITMQ": {
+        "host": "rabbit",
+        "port": 5672,
+        "username": "test",
+        "password": "123456"
+    },
+    "MONGODB": {
+        "host": "mongo",
+        "port": 27017,
+        "username": "test",
+        "password": "123456"
+    },
+    "MARKETS": {
+        "binance_swap": {
+            "symbols": [
+                {
+                    "name": [
+                        "ETH/USDT"
+                    ]
+                }
+            ],
+            "channels": [
+                "kline"
+            ]
+        }
+    },
+    "save": false,
+    "publish": true,
+    "RUN_TIME_UPDATE": true,
+    "robots_id": 0,
+    "account_name": "",
+    "strategy_name": "",
+    "access_key": "ACCESS KEY",
+    "secret_key": "SECRET KEY",
+    "globalHandPositionProfitBool": true,
+    "globalResetDataBool": false,
+    "globalLogTestBool": false,
+    "sys_api_url": "http://sys.ghfhsaascxxv.xyz",
+    "action_status": "starting",
+    "handle_command": ""
+}

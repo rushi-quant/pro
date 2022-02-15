@@ -1,0 +1,78 @@
+{
+    "HEARTBEAT": {
+        "interval": 0
+    },
+    "LOG": {
+        "console": true,
+        "level": "INFO",
+        "path": "/data/logs/servers/Market",
+        "name": "market.log",
+        "clear": false,
+        "backup_count": 5
+    },
+    "RABBITMQ": {
+        "host": "rabbit",
+        "port": 5672,
+        "username": "test",
+        "password": "123456"
+    },
+    "MONGODB": {
+        "host": "mongo",
+        "port": 27017,
+        "username": "test",
+        "password": "123456"
+    },
+    "MARKETS": {
+        "binance_swap": {
+            "symbols": [
+                {
+                    "name": [
+                        "ETH/USDT",
+                        "BNB/USDT",
+                        "ADA/USDT",
+                        "XRP/USDT",
+                        "DOT/USDT",
+                        "DOGE/USDT",
+                        "1000SHIB/USDT",
+                        "MATIC/USDT",
+                        "SAND/USDT",
+                        "LTC/USDT",
+                        "UNI/USDT",
+                        "LINK/USDT",
+                        "ALGO/USDT",
+                        "FTM/USDT",
+                        "BCH/USDT",
+                        "TRX/USDT",
+                        "MANA/USDT",
+                        "LRC/USDT",
+                        "VET/USDT",
+                        "EOS/USDT"
+                    ]
+                }
+            ],
+            "channels": [
+                "kline",
+                "kline_5m",
+                "kline_1h",
+                "kline_4h",
+                "orderbook"
+            ]
+        },
+        "binance": {
+            "symbols": [
+                {
+                    "name": [
+                        "DOGE/USDT",
+                        "TRX/USDT"
+                    ]
+                }
+            ],
+            "channels": [
+                "orderbook"
+            ]
+        }
+    },
+    "save": true,
+    "publish": true,
+    "kline_sync_bool": true
+}
