@@ -64,7 +64,23 @@
                     "name": [
                         "DOGE/USDT",
                         "TRX/USDT",
-                        "ADA/USDT"
+                        "ADA/USDT",
+                        "GALA/USDT",
+                        "SHIB/USDT",
+                        "XRP/USDT",
+                        "DYDX/USDT",
+                        "DOT/USDT",
+                        "BTC/USDT",
+                        "ETH/USDT",
+                        "FTM/USDT",
+                        "BNB/USDT",
+                        "SOL/USDT",
+                        "FIL/USDT",
+                        "ONE/USDT",
+                        "OMG/USDT",
+                        "RARE/USDT",
+                        "AVAX/USDT",
+                        "LUNA/USDT"
                     ]
                 }
             ],
