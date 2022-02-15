@@ -1,0 +1,13 @@
+/__pycache__/*
+/base/__pycache__/*
+/test/__pycache__/*
+/.idea
+/src/strategy/__pycache__/
+/venv
+/src/markets/__paycache__/*
+/src/aioquant/__pycache__/*
+/src/aioquant/platform/__pycache__/*
+/src/aioquant/utils/__pycache__/*
+/src/datas/__pycache__/*
+/src/markets/__pycache__/*
+/src/rushi/__pycache__

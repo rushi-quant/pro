@@ -185,6 +185,7 @@ docker exec -it rsquant /bin/bash
 date -R
 # 显示如下
 Wed, 26 Jan 2022 07:53:10 +0000
+# 与国内时间不一样
 # 改为国内时区
 tzselect
 # 显示如下
@@ -251,6 +252,7 @@ cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 y
 # 查看当前时间
 date
+# 与国内时间一样了
 ```
 - #### 启动行情服务器
 ```
@@ -329,7 +331,11 @@ nohup python3 src/server.py config/server.json lszjl Zjl120221 > /dev/null 2>&1 
 ```
 exit
 ```
-
+================================================
+### 更新最新代码
+```
+docker exec rsquant git pull -f origin master
+```
 ================================================
 ### 检查环境
 ```
