@@ -62,9 +62,6 @@
             "symbols": [
                 {
                     "name": [
-                        "DOGE/USDT",
-                        "TRX/USDT",
-                        "ADA/USDT",
                         "GALA/USDT",
                         "SHIB/USDT",
                         "XRP/USDT",
@@ -76,12 +73,139 @@
                         "BNB/USDT",
                         "SOL/USDT",
                         "FIL/USDT",
+                        "ADA/USDT",
+                        "DOGE/USDT",
                         "ONE/USDT",
                         "OMG/USDT",
                         "RARE/USDT",
                         "AVAX/USDT",
                         "LUNA/USDT",
-                        "AXS/USDT"
+                        "AXS/USDT",
+                        "USDC/USDT"
+                    ]
+                }
+            ],
+            "channels": [
+                "orderbook"
+            ]
+        },
+        "binance_1": {
+            "symbols": [
+                {
+                    "name": [
+                        "SLP/USDT",
+                        "IOTA/USDT",
+                        "RAD/USDT",
+                        "LTC/USDT",
+                        "VIDT/USDT",
+                        "LINK/USDT",
+                        "TRX/USDT",
+                        "EOS/USDT",
+                        "ICP/USDT",
+                        "MATIC/USDT",
+                        "CELR/USDT",
+                        "ATOM/USDT",
+                        "STPT/USDT",
+                        "IDEX/USDT",
+                        "THETA/USDT",
+                        "XTZ/USDT",
+                        "VET/USDT",
+                        "STX/USDT",
+                        "XLM/USDT",
+                        "ETC/USDT"
+                    ]
+                }
+            ],
+            "channels": [
+                "orderbook"
+            ]
+        },
+        "binance_2": {
+            "symbols": [
+                {
+                    "name": [
+                        "BCH/USDT",
+                        "KAVA/USDT",
+                        "ALGO/USDT",
+                        "BTT/USDT",
+                        "FTT/USDT",
+                        "NEAR/USDT",
+                        "ONT/USDT",
+                        "BTCST/USDT",
+                        "CHZ/USDT",
+                        "COTI/USDT",
+                        "UNI/USDT",
+                        "SXP/USDT",
+                        "EGLD/USDT",
+                        "FIS/USDT",
+                        "CAKE/USDT",
+                        "ROSE/USDT",
+                        "AR/USDT",
+                        "FET/USDT",
+                        "KLAY/USDT",
+                        "COS/USDT"
+                    ]
+                }
+            ],
+            "channels": [
+                "orderbook"
+            ]
+        },
+        "binance_3": {
+            "symbols": [
+                {
+                    "name": [
+                        "ALICE/USDT",
+                        "DATA/USDT",
+                        "LINA/USDT",
+                        "IOTX/USDT",
+                        "SUSHI/USDT",
+                        "C98/USDT",
+                        "CFX/USDT",
+                        "WNXM/USDT",
+                        "IOST/USDT",
+                        "QTUM/USDT",
+                        "DENT/USDT",
+                        "TROY/USDT",
+                        "ATA/USDT",
+                        "HBAR/USDT",
+                        "MINA/USDT",
+                        "MDX/USDT",
+                        "AGLD/USDT",
+                        "CELO/USDT",
+                        "AUD/USDT",
+                        "TLM/USDT"
+                    ]
+                }
+            ],
+            "channels": [
+                "orderbook"
+            ]
+        },
+        "binance_4": {
+            "symbols": [
+                {
+                    "name": [
+                        "XMR/USDT",
+                        "CRV/USDT",
+                        "RUNE/USDT",
+                        "SUN/USDT",
+                        "MBOX/USDT",
+                        "BADGER/USDT",
+                        "SRM/USDT",
+                        "XEC/USDT",
+                        "EUR/USDT",
+                        "HOT/USDT",
+                        "1INCH/USDT",
+                        "REN/USDT",
+                        "AAVE/USDT",
+                        "NEO/USDT",
+                        "ZEC/USDT",
+                        "JST/USDT",
+                        "GRT/USDT",
+                        "MASK/USDT",
+                        "COMP/USDT",
+                        "BETA/USDT"
                     ]
                 }
             ],
