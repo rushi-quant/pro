@@ -333,8 +333,13 @@ exit
 ```
 ================================================
 ### 更新最新代码
+- #### 进入已购买的服务器
+- #### 进入策略服务器
 ```
-docker exec rsquant git pull -f origin master
+docker exec -it rsquant /bin/bash
+git pull -f origin master
+pkill -f src/market.py
+nohup python src/market.py config/market.json > /dev/null 2>&1 &
 ```
 ================================================
 ### 检查环境
